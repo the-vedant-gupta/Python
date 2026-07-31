@@ -9,6 +9,5 @@ try:
 # except (ValueError, ZeroDivisionError):
 #     print("Invalid Input. Try Again")
 except Exception as e:
-    # print("Some error occured")
     print(type(e).__name__)
     print(f"Error message = {e}")
